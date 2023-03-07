@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #E6E6E6;
+}
+
+h1{
+    color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2{
+    color: #F7B600;
+}
+
+h3{
+    color: #565656;
+}
+
+a:link, a:visited{
+    color: #F7B600;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#headerStyle a:link, #headerStyle a:visited{
+    text-decoration: none;
+    color: white;
+    padding:8px 12px;
+    /*border: 1px solid black;*/
+}
+
+#headerStyle{
+    text-align: center;
+    background-color: #F7B600;
+    padding: 15px;
+    /*border: 1px solid black;*/
+}
+
+#headerLogo{
+    padding: 10px;
+}
+
+#headerLinks{
+    padding: 10px;
+}
+
+#bodyConstruction{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    /*border: 1px solid black;*/
+}   
+
+#baseboardStyle{
+    background-color: #CCC;
+    text-align: center;
+    /*border: 1px solid black;*/
+    padding: 15px;
+}
+
+#postArea{
+    width: 660px;
+    /*border: 1px solid black;*/
+    float: left;
+}
+
+.white{
+    color: white;
+}
+
+.postStyle{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    /*border: 1px solid black;*/
+}
+
+.dataStyle{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 10px;
+}
+
+.postText{
+}
+
+.postLink{
+    color: #F7B600;
+    text-decoration: none;
+}
+
+.clear{
+    clear:both;
+}
+
+.sideArea{
+    width: 240px;
+    float: right;
+    /*border: 1px solid black;*/
+}
+
+.sidePosts{
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sideWriting{
+    font-size: 0.8em;
+    border-bottom: 1px dotted #CCC;
+    padding: 5px;
+}
+
+.highlightSide{
+    background-color: #CCC;
+    padding: 5px;
+    margin-bottom: 0px;
+    /*border: 1px solid black;*/
+}
+
+#headerStyle a:hover{
+    background-color: white;
+    color: #F7B600;
+}

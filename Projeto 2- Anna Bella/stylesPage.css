@@ -1,0 +1,36 @@
+#principal{
+    width: 900px;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#menu{
+    background-color: #C5C5B2;
+    padding: 18px;
+}
+
+a{
+    font-weight: bold;
+    text-decoration:none;
+    color: #4B566A;
+    padding: 5px;
+}
+
+.conteudo{
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
+#rodape{
+    text-align: center;
+}
+
+.imgCampanhas{
+    border-style: solid;
+    border-color: #C3C3AE;
+    border-width: 10px;
+}
