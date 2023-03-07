@@ -1,0 +1,118 @@
+body{
+    background-color:#E0FFFF;
+    font-size: 1em;
+}
+
+#announceArea h2{
+    color: #2E8B57;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+#announceArea h3{
+    color: #9ACD32;
+    font-size: 1.2em;
+}
+
+#announceArea p{
+    color: #696969;
+}
+
+#priceArea h2{
+    color: white;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+#priceArea h1{
+    color: white;
+    font-size: 3em;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 0px;
+    display: inline;
+}
+
+#priceArea h3{
+    color: #9ACD32;
+    font-size: 1em;
+    padding-top: 20px;
+    padding-left: 0px;
+    margin-top: 0px;
+    display: inline;
+}
+
+#priceArea p{
+    color: white;
+    padding-left: 40px;
+}
+
+#buttonPrice a:link, #buttonPrice a:visited{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 9px;
+}
+
+#commercialArea h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+#commercialArea p{
+    color: white;
+    padding-left: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+#contentArea{
+    width: 640px;
+    height: 576px;
+    background-color: white;
+    margin: 160px auto;
+}
+
+#announceArea{
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 640px;
+    height: 240px;
+    float: left;
+}
+
+#priceArea{
+    background-color:#2E8B57;
+    width: 320px;
+    height: 336px;
+    float: left;
+    color: white;
+}
+
+#commercialArea{
+    background-color: #3CB371;
+    color: white;
+    width: 320px;
+    height: 336px;
+    float: right;
+}
+
+#buttonPrice{
+    color: white;
+    background-color: #9ACD32;
+    width: 192px;
+    height: 35px;
+    position: relative;
+    top: 55px;
+    left: 63px;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
