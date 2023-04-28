@@ -1,0 +1,37 @@
+body{
+    background-color: #87CEFA;
+}
+
+h2{
+    margin-top: 0px;
+    color: #191970;
+}
+
+p{
+    padding: 10px;
+}
+
+#whiteRectangle{
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+
+
+    background-color: white;
+    width: 300px;
+    height: 500px;
+}
+
+#qrImage{
+    width: 240px;
+    height: 240px;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#announceText{
+    padding: 10px;
+    text-align: center;
+    color:#696969;
+}
