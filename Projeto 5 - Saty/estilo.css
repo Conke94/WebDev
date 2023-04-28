@@ -1,0 +1,70 @@
+body{
+    background-color: #1C1C1C;
+}
+
+h1{
+    color: greenyellow;
+}
+
+h2{
+    color: aquamarine;
+}
+
+#cabecalho{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+#avatarImage{
+    margin: 70px;
+    text-align: center;
+}
+
+#avatarImage img{
+    border: 5px solid greenyellow;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+#mainContainer{
+    text-align: center;
+    color: white;
+    width: 1024px;
+    position: relative;
+    margin: 0px auto;
+}
+
+#rodape{
+    padding-top: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+#rodape a:visited, a:active, a:link{
+    color: greenyellow;
+}
+
+#rodape a:hover{
+    color: white;
+}
+
+#rodape img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+a:link, :visited{
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a:hover{
+    color: greenyellow;
+}
