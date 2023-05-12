@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(Images/fundo.png) repeat-x;
+}
+
+h2{
+    padding: 5px;
+    font-size: 1em;
+    background-color: #294c71;
+    color: white;
+}
+
+h3{
+    color: #294c71;
+    font-size: 0.8em;
+}
+
+#lateral{
+    float: left;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#allHeader{
+    padding-top: 25px;
+    background: url(Images/detalhe-topo.png) no-repeat top right;
+    height: 150px;
+}
+
+#allHeader ul{
+    margin-top: 30px;
+    list-style: none;
+    background-color: #b10333;
+    float: left;
+}
+
+#allHeader li{
+    float: left;
+}
+
+#allHeader a:visited, #allHeader a:link{
+    color: white;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+    background: url(Images/divisor.png) no-repeat center right;
+    display: block;
+}
+
+#conteudo{
+    margin-top: 60px;
+    background-color: #f5f5f5;
+}
+
+#caixa-esquerda{
+    width: 170px;
+    padding: 5px;
+    margin: 5px 0;
+    background: url(Images/fundo-caixa.png);
+}
+
+#conteudo-esquerda{
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#conteudo-esquerda label{
+    cursor: pointer;
+}
+
+#conteudo-esquerda input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+#caixa-esquerda ul{
+    list-style: none;
+    background-color: #fff; 
+}
+
+#caixa-esquerda a:link, #caixa-esquerda a:visited{
+    text-decoration: none;
+    display: block;
+    font-size: 0.9em;
+	padding: 3px;
+	line-height: 30px;
+	color: #000;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#caixa-esquerda a:hover{
+    background: #f9f9f9 url(Images/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+#caixa{
+    width: 260px;
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background: url(Images/fundo-caixa.png);
+}
+
+#conteudo-centro{
+    margin-top: 5px;
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+}
+
+#conteudo-centro img, #conteudo-direita img{
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+
+#conteudo-centro a:visited, #conteudo-centro a:link, #conteudo-direita a:visited, #conteudo-direita a:link{
+    color: #b10333;
+}
+
+#destaque{
+    font-weight: bold;
+    background-color: #b10333;
+    color: white;
+    display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+#conteudo-direita{
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.lista2{
+}
+
+.lista2 ul{
+    list-style: none;
+}
+
+.lista2 li{
+    border-bottom: 1px solid #ccc;
+    height: 63px;
+}
+
+.lista2 p{
+    font-size: 0.7em;
+	color: #000;
+    text-decoration: none;
+}
+
+.lista2 a{
+    text-decoration: none;
+}
+
+.lista2 img{
+    float: left;
+    margin: 5px;
+    width: 80px !important;
+    border: none !important;
+    display: block;
+}
+
+#legislacao{
+    background: url(Images/fundo-caixa.png);
+    width: 100%;
+    margin-top: 80px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#conteudo_legislacao{
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#conteudo_legislacao img{
+    width: 98%;
+    border: 3px solid #a1a1a1;
+}
+
+#caixa_brasil{
+    width: 545px;
+    float: right;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background: url(Images/fundo-caixa.png);
+}
+
+#conteudo_brasil{
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#conteudo_brasil img{
+    border: 3px solid #ccc;
+    width: 98%;
+}
+
+#conteudo_brasil a{
+    color: #b10333;
+}
+
+#lista_brasil img{
+    float: left;
+    margin: 5px;
+    width: 80px !important;
+    border: none !important;
+    display: block;
+}
+
+#lista_brasil li{
+    border-bottom: 1px solid #a1a1a1;
+    height: 63px;
+}
+
+#lista_brasil ul{
+    list-style: none;
+}
+
+#lista_brasil a{
+    text-decoration: none;
+}
+
+#lista_brasil a p{
+    font-size: 0.7em;
+	color: #000;
+}
+
+#atual{
+    background-color: #FA8072;
+}
+
+#rodape{
+    clear: both;
+    background-color:#294c71;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
