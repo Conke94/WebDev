@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 5px solid #FF0000;
+    height: 120px;
+    width: 100%;
+}
+
+#logo{
+    height: 120px;
+    width: 250px;
+    float: left;
+    text-align: center;
+}
+
+#logo img{
+    position: relative;
+    top: 14px;
+    width: 114px;
+    height: 63px;
+}
+
+#logo p{
+    position: relative;
+    top: 12px;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: Bodoni MT, Bodoni 72, Didot;
+    -webkit-text-stroke: 0.3px #B9B9B9;
+}
