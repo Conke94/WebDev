@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Basic Calculator</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" style="text/css" href="style.css"> 
+    </head>
+    <body>
+        <div class="container">
+            <script src="operations.js"></script>
+            <!--Resultados-->
+            <input class="results" type="text" disabled="disabled" placeholder="Resultado" id="resultInput">
+            <!--Botões-->
+            <button onclick="erase()">X</button>
+            <button onclick="digitPressed('(')">(</button>
+            <button onclick="digitPressed(')')">)</button>
+            <button onclick="modulo()">mod</button>
+            <button onclick="digitPressed('3.1416')">π</button>
+            <button onclick="digitPressed('7')">7</button>
+            <button onclick="digitPressed('8')">8</button>
+            <button onclick="digitPressed('9')">9</button>
+            <button onclick="digitPressed('/')">÷</button>
+            <button onclick="raiz()">√</button>
+            <button onclick="digitPressed('4')">4</button>
+            <button onclick="digitPressed('5')">5</button>
+            <button onclick="digitPressed('6')">6</button>
+            <button onclick="digitPressed('*')">*</button>
+            <button onclick="square()">x<sup>2</sup></button>
+            <button onclick="digitPressed('1')">1</button>
+            <button onclick="digitPressed('2')">2</button>
+            <button onclick="digitPressed('3')">3</button>
+            <button onclick="digitPressed('-')">-</button>
+            <button class="span-two-column" onclick="calcular()">=</button>
+            <button onclick="digitPressed('0')">0</button>
+            <button onclick="digitPressed('.')">.</button>
+            <button class="span-two-row" onclick="digitPressed('+')">+</button>
+        </div>
+    </body>
+</html>
