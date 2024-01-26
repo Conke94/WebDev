@@ -1,0 +1,106 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    cursor: url(Images/mata_mosca.png) 30 30, auto;
+}
+
+body{
+    background-image: url(Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+/* === MOSQUITO ===*/
+.mosquito1{
+    width: 50px; height: 50px;
+}
+.mosquito2{
+    width: 70px; height: 70px;
+}
+.mosquito3{
+    width: 90px; height: 90px;
+}
+
+.mosquitoLadoA{
+    transform: scaleX(1);
+}
+.mosquitoLadoB{
+    transform: scaleX(-1);
+}
+
+/* === VISUAL === */
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: 1px solid #fff;
+    background-color: white; opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* === GAME-OVER PAGE === */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container button{
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover{
+    background-color: gray;
+}
+
+#level{
+    margin-top: 20px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
+/* Estilo para a seta dropdown */
+select:after {
+    content: '\25BC'; /* Caractere unicode da seta para baixo */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Estilo para a borda quando o select está focado */
+select:focus {
+    outline: none;
+    border-color: #3498db; /* Cor ao receber foco */
+}
+
+/* Estilo para as opções dentro do dropdown */
+select option {
+    padding: 10px;
+}
