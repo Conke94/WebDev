@@ -1,0 +1,127 @@
+/* ========== GERAL ========== */
+*{
+    margin: 0; padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* ========== CABEÇALHO ==========*/
+header{
+    padding: 10px 200px 10px 200px;
+
+    border-bottom: 4px solid #FF0000;
+    background-color: white;
+    display: flex;
+    flex-direction: row; justify-content: space-between; align-items: center;
+}
+
+header a{
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid #FF0000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header a:hover{
+    transform: scale(1.1);
+}
+
+header button{
+    background-color: #FF0000; color: white;
+    padding: 10px 20px;
+    border-radius: 5px; border: none;
+    font-size: 16px; font-weight: bold;
+    height: 3.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #CC0000;
+}
+
+header img{
+    width: 150px;
+}
+
+/* ========== CONTEÚDO ========== */
+body{
+    background-color: #EEEEEE;
+}
+
+.imagem-info{
+    float: left;
+    margin-top: 90px; margin-left: 300px;
+    text-align: center; font-size: 1.3rem; line-height: 1.5rem; font-weight: bold;
+}
+
+.imagem-info img{
+    border: 2px solid #CC0000;
+    border-radius: 50%;
+    width: 370px;
+    margin-bottom: 10px;
+}
+
+.imagem-info button{
+    background-color: #25D366;
+    border: none; border-radius: 7px;
+    font-size: 1.2rem; font-weight: bold;
+    padding: 8px; margin-top: 10px;
+    cursor: pointer;
+}
+
+.chamada{
+    float: right; 
+    margin-right: 300px; margin-top: 175px;
+    text-align: center;
+}
+
+.chamada h2{
+    color: #6A0505; 
+    display: block; width: 700px;
+    margin-bottom: 8px;
+}
+
+.chamada p{
+    width: 700px;
+    font-size: 1.2rem;
+}
+
+/* ========== RODAPÉ ========== */
+footer{
+    clear: both;
+    background-color:#FF0000;
+    display: flex; flex-direction: row; justify-content: space-between;
+    padding: 25px 250px 25px 250px;
+    position: fixed; bottom: 0; width: 100%;
+    text-align: center;
+}
+
+footer p{
+    width: 300px;
+}
+
+.link-column{
+    display: flex; flex-direction: column;
+}
+
+.link-column a{
+    line-height: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.extra-info{
+    align-items: center;
+}
+
+.extra-info p{
+    line-height: 1.3rem;
+    font-weight: bold;
+}
+
+.link-column h3{
+    color: white;
+}
